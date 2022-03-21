@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "http-server ./"
+  },
+  "dependencies": {
+    "lto-api": "^0.5.14",
+    "web3": "^1.7.0"
   },
   "devDependencies": {
-    "typescript": "^4.5.4",
-    "vite": "^2.8.0"
+    "http-server": "^14.1.0"
   }
 }
